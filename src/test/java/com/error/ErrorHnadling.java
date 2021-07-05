@@ -7,18 +7,16 @@ public class ErrorHnadling {
 
     private List list = new ArrayList ();
 
-    private String str ;
+    private String str;
 
     public void setStr(String str) {
-        this.str = str;
-    }
 
-    public String getStr() {
-        return str;
-    }
+        if (str == null) {
 
-    public List getList() {
-        return list;
+
+        } else
+            this.str = str;
+
     }
 
     public void setList(List list) {
@@ -26,14 +24,18 @@ public class ErrorHnadling {
     }
 
 
+    public String getStr() {
 
-    //    @Override
-//    public String toString() {
-//        return "ErrorHnadling{" +
-//                "list=" + list +
-//                ", str='" + str + '\'' +
-//                '}';
-    //}
+        return str;
+
+    }
+
+
+    public List getList() {
+
+        return list;
+
+    }
 
 
 }
