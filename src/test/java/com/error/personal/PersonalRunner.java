@@ -10,10 +10,14 @@ public class PersonalRunner {
         String name = scanner.nextLine ();
         System.out.println ("Enter age");
         int i = scanner.nextInt ();
+
         if (i <= 19) {
             System.out.println ("Your  Student");
-            Personal personal = new Student (i,name);
-            System.out.println (personal.toString ());
+            System.out.println ("Please enter college name");
+             scanner = new Scanner (System.in);
+            String college=scanner.nextLine ();
+            Personal student = new Student (i,name,college);
+            System.out.println (student.toString ());
 
 
         } else {
