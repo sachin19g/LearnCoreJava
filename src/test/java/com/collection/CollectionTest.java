@@ -3,7 +3,7 @@ package com.collection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CollectionTest<T> {
+public class CollectionTest<T extends Number> {
 
     List<T> list1=new ArrayList<>();
 
