@@ -1,3 +1,3 @@
 # LearnCoreJava
-LearnCoreJava5-july
-B1 branch created
+
+LearnCoreJava5-july B1 branch created

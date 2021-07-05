@@ -13,10 +13,7 @@ public class FunctionalList {
         integers.add(3);
         integers.add(4);
 
-         integers.stream().forEach(e-> System.out.println(e));
-
-
-
+        integers.stream().forEach(e -> System.out.println(e));
 
 
     }
